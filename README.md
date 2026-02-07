@@ -24,7 +24,8 @@ I'm currently seeking senior-level opportunities in accounting, FP&A, internal a
 |----------|--------|
 | **Visualization** | Tableau, Power BI, DAX, Matplotlib, Seaborn |
 | **Programming** | Python (pandas, NumPy, scikit-learn, matplotlib, seaborn), SQL |
-| **ERP / Accounting** | Oracle NetSuite, QuickBooks, Excel (advanced), financial modeling |
+| **ERP / Accounting** | Oracle NetSuite, Sage 500, Microsoft Dynamics, Oracle JD Edwards + Hubble Reporting & Analytics, QuickBooks, Excel (advanced), financial modeling |
+| **POS & Payment Systems** | Shift4 / Total E+, Loyverse + Elavon, Square |
 | **Cloud / AI** | Microsoft Azure AI, Google Cloud |
 | **Analytics** | Data modeling, ETL, variance analysis, regression, classification, EDA |
 | **Accounting** | FP&A, financial reporting, SOX compliance, month-end close, budgeting & forecasting |
@@ -33,14 +34,14 @@ I'm currently seeking senior-level opportunities in accounting, FP&A, internal a
 
 ## 📜 Certifications
 
-| Certification | Issuer | Date |
-|---------------|--------|------|
-| **Certified Public Accountant (CPA)** | NASBA | Nov 2025 |
-| **Microsoft Certified: Power BI Data Analyst Associate (PL-300)** | Microsoft | Jan 2026 |
-| **Google Advanced Data Analytics Specialization** | Google | Jan 2026 |
-| **Microsoft Certified: Azure AI Fundamentals (AI-900)** | Microsoft | Feb 2026 |
-| **Oracle NetSuite Financial Associate Certification** | Oracle | Feb 2026 |
-| **Oracle NetSuite BI and Reporting Associate** | Oracle | Feb 2026 |
+| Certification | Issuer | Date | Verify |
+|---------------|--------|------|--------|
+| **Certified Public Accountant (CPA)** — License #21954 | Arizona State Board of Accountancy | Nov 2025 | [Verify →](https://www.azaccountancy.gov/CPADirectory/CPASearch.aspx) |
+| **Microsoft Certified: Power BI Data Analyst Associate (PL-300)** | Microsoft | Jan 2026 | [Verify →](https://learn.microsoft.com/en-us/users/me/credentials?credentialId=1E6A866ED489BC35) |
+| **Google Advanced Data Analytics Specialization** | Google | Jan 2026 | [Verify →](https://www.credly.com/badges/verify?credentialId=MFBS4CNH4MKI) |
+| **Microsoft Certified: Azure AI Fundamentals (AI-900)** | Microsoft | Feb 2026 | [Verify →](https://learn.microsoft.com/en-us/users/me/credentials?credentialId=A49FB28901B5257B) |
+| **Oracle NetSuite Financial Associate Certification** | Oracle | Feb 2026 | [Verify →](https://www.linkedin.com/in/shamusreilly/details/certifications/) |
+| **Oracle NetSuite BI and Reporting Associate** | Oracle | Feb 2026 | [Verify →](https://www.linkedin.com/in/shamusreilly/details/certifications/) |
 
 ---
 
