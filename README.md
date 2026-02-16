@@ -8,13 +8,21 @@
 
 ---
 
+## Table of Contents
+
+- [About Me](#about-me)
+- [Technical Skills](#-technical-skills)
+- [Certifications](#-certifications)
+- [Tableau Projects](#-tableau-projects)
+- [Power BI Projects](#-power-bi-projects)
+- [Python Projects](#-python-projects)
+- [Connect With Me](#-connect-with-me)
+
+---
+
 ## About Me
 
-I'm a Senior Accountant and CPA with 10+ years of experience across FP&A, corporate accounting, financial reporting, forecasting, and internal audit. I specialize in transforming complex financial data into clear, actionable insights that drive better business decisions. My work consistently improves reporting accuracy, strengthens accounting processes, and increases operational efficiency across Finance, Operations, HR, IT, and Audit.
-
-I combine deep financial expertise with modern analytics tools — Tableau, Power BI, Python, and SQL — to bridge the gap between traditional accounting and data-driven decision making. With certifications spanning Oracle NetSuite, Google Advanced Data Analytics, Microsoft Power BI, and Azure AI, I bring a unique blend of accounting knowledge and emerging technology skills to every project.
-
-I'm currently seeking senior-level opportunities in accounting, FP&A, internal audit, or analytics leadership where I can help organizations scale smarter and make more informed decisions.
+I'm a CPA and Senior Accountant with 10+ years of experience spanning FP&A, corporate accounting, financial reporting, forecasting, and internal audit. I bridge the gap between traditional accounting and data-driven decision making using Tableau, Power BI, Python, and SQL — backed by certifications in Oracle NetSuite, Google Advanced Data Analytics, Microsoft Power BI, and Azure AI.
 
 ---
 
@@ -43,11 +51,15 @@ I'm currently seeking senior-level opportunities in accounting, FP&A, internal a
 | **Oracle NetSuite Financial Associate Certification** | Oracle | Feb 2026 | [Verify →](https://www.linkedin.com/in/shamusreilly/details/certifications/) |
 | **Oracle NetSuite BI and Reporting Associate** | Oracle | Feb 2026 | [Verify →](https://www.linkedin.com/in/shamusreilly/details/certifications/) |
 
+> *Links will be updated to public verification URLs shortly.*
+
 ---
 
 ## 📊 Tableau Projects
 
-### Regional Audit Fee Analysis & Cost Visualization
+<details>
+<summary><strong>Regional Audit Fee Analysis & Cost Visualization</strong></summary>
+<br>
 
 **Tool(s):** Tableau | **Category:** Dashboard / Financial Analysis | **Source:** WGU Coursework
 
@@ -59,34 +71,44 @@ I'm currently seeking senior-level opportunities in accounting, FP&A, internal a
 - Designed a multi-view workbook: geographic map, scatter plot with trend lines, and regional bar chart
 
 **Key Insights:**
-- Southwest and Southeast regions carry the highest average audit fees ($755K and $659K respectively), nearly 2–3× the Northeast average
+- Southwest and Southeast regions carry the highest average audit fees ($755K and $659K respectively), nearly 2-3x the Northeast average
 - Smaller companies (under $500M in assets) pay disproportionately high audit fees per dollar of assets, with many flagged as low-coverage risks
 - Geographic clustering of low-coverage flags in the Mountain West and parts of the Southeast suggests regional gaps in audit market access
 
 **Screenshots:**
 
 <p align="center">
-  <img src="images/tableau-audit-fee-map.png" alt="Regional Audit Fee Map" width="700"/>
+  <a href="https://public.tableau.com/app/profile/shamus.reilly/vizzes">
+    <img src="images/tableau-audit-fee-map.png" alt="Regional Audit Fee Map" width="700"/>
+  </a>
   <br><em>Geographic distribution of audit fees per $1M assets with low-coverage flags</em>
 </p>
 
 <p align="center">
-  <img src="images/tableau-audit-fee-scatter.png" alt="Audit Fees vs Assets Scatter Plot" width="700"/>
+  <a href="https://public.tableau.com/app/profile/shamus.reilly/vizzes">
+    <img src="images/tableau-audit-fee-scatter.png" alt="Audit Fees vs Assets Scatter Plot" width="700"/>
+  </a>
   <br><em>Audit fees vs. assets — highlighting low-coverage risks with dual trend lines</em>
 </p>
 
 <p align="center">
-  <img src="images/tableau-audit-fee-bar.png" alt="Average Audit Fee by Region" width="500"/>
+  <a href="https://public.tableau.com/app/profile/shamus.reilly/vizzes">
+    <img src="images/tableau-audit-fee-bar.png" alt="Average Audit Fee by Region" width="500"/>
+  </a>
   <br><em>Average audit fee by region — Southwest leads at $755K</em>
 </p>
 
-🔗 **[View on Tableau Public →](https://public.tableau.com/app/profile/shamus.reilly/vizzes)**
+[View on Tableau Public →](https://public.tableau.com/app/profile/shamus.reilly/vizzes)
+
+</details>
 
 ---
 
 ## 📈 Power BI Projects
 
-### Databel Telecom Customer Churn Analysis
+<details>
+<summary><strong>Databel Telecom Customer Churn Analysis</strong></summary>
+<br>
 
 **Tool(s):** Power BI, DAX | **Category:** Dashboard / Business Intelligence | **Source:** Certification Project
 
@@ -99,7 +121,7 @@ I'm currently seeking senior-level opportunities in accounting, FP&A, internal a
 
 **Key Insights:**
 - Overall churn rate of **26.86%** (1,796 of 6,687 customers)
-- **Senior customers** (65+) churn at **38.46%** — nearly 1.6× the overall rate — representing the highest-risk demographic
+- **Senior customers** (65+) churn at **38.46%** — nearly 1.6x the overall rate — representing the highest-risk demographic
 - Top churn drivers are competitor-related: better devices and better offers account for the largest share of departures
 - Customers under 30 actually have the *lowest* churn rate at 23%, contradicting typical assumptions
 
@@ -110,11 +132,15 @@ I'm currently seeking senior-level opportunities in accounting, FP&A, internal a
   <br><em>Databel churn analysis — KPIs, age segmentation, and churn reason breakdown</em>
 </p>
 
+</details>
+
 ---
 
 ## 🐍 Python Projects
 
-### Salifort Motors — Employee Retention Prediction
+<details>
+<summary><strong>Salifort Motors — Employee Retention Prediction</strong></summary>
+<br>
 
 **Tool(s):** Python (pandas, NumPy, scikit-learn, matplotlib, seaborn) | **Category:** Machine Learning / Classification | **Source:** Google Advanced Data Analytics Capstone
 
@@ -123,7 +149,7 @@ I'm currently seeking senior-level opportunities in accounting, FP&A, internal a
 **Approach:**
 - Cleaned a 14,999-row HR dataset: removed 3,008 duplicates (20%), renamed columns, validated data types
 - Conducted exploratory data analysis with box plots, scatter plots, count plots, and a correlation heatmap
-- Built and evaluated a **Random Forest Classifier** using an 75/25 train-test split
+- Built and evaluated a **Random Forest Classifier** using a 75/25 train-test split
 
 **Key Results:**
 - **97% accuracy** on the test set with strong precision and recall
@@ -133,11 +159,13 @@ I'm currently seeking senior-level opportunities in accounting, FP&A, internal a
 
 **Methodology:** PACE Framework (Plan → Analyze → Construct → Execute)
 
-🔗 *Full notebook and code available in this repository*
+*Notebook and code coming soon.*
 
----
+</details>
 
-### TikTok Claims Classification Project
+<details>
+<summary><strong>TikTok Claims Classification Project</strong></summary>
+<br>
 
 **Tool(s):** Python (pandas, NumPy, scikit-learn, scipy, matplotlib, seaborn) | **Category:** Machine Learning / NLP Classification | **Source:** Google Advanced Data Analytics Coursework
 
@@ -158,7 +186,17 @@ I'm currently seeking senior-level opportunities in accounting, FP&A, internal a
 
 **Methodology:** PACE Framework (Plan → Analyze → Construct → Execute)
 
-🔗 *Full notebook and code available in this repository*
+*Notebook and code coming soon.*
+
+</details>
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=shamusreilly&show_icons=true&theme=default&hide_border=true" alt="GitHub Stats" />
+</p>
 
 ---
 
