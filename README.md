@@ -10,9 +10,9 @@
 
 ## About Me
 
-I'm a Senior Accountant and CPA with 10+ years of experience across FP&A, corporate accounting, financial reporting, forecasting, and internal audit. I specialize in transforming complex financial data into clear, actionable insights that drive better business decisions. My work consistently improves reporting accuracy, strengthens accounting processes, and increases operational efficiency across Finance, Operations, HR, IT, and Audit.
+I'm a Senior Accountant and CPA with 10+ years of experience across corporate accounting, FP&A, financial reporting, forecasting, and internal audit. I specialize in transforming complex financial data into clear, actionable insights that drive better business decisions. My work consistently improves reporting accuracy, strengthens accounting processes, and increases operational efficiency across Finance, Operations, HR, IT, and Audit.
 
-I combine deep financial expertise with modern analytics tools — Tableau, Power BI, Python, and SQL — to bridge the gap between traditional accounting and data-driven decision making. With certifications spanning Oracle NetSuite, Google Advanced Data Analytics, Microsoft Power BI, and Azure AI, I bring a unique blend of accounting knowledge and emerging technology skills to every project.
+I combine deep financial expertise with modern analytics tools — Power BI, Tableau, Python, SQL, and Oracle NetSuite — to bridge the gap between traditional accounting and data-driven decision making. With certifications in Microsoft Power BI (PL-300), Google Advanced Data Analytics, Oracle NetSuite ERP and BI & Reporting, Microsoft Azure AI Fundamentals, Salesforce Certified Business Analyst, and a CPA license, I bring a validated blend of accounting knowledge and emerging technology skills to every project.
 
 I'm currently seeking senior-level opportunities in accounting, FP&A, internal audit, or analytics leadership where I can help organizations scale smarter and make more informed decisions.
 
