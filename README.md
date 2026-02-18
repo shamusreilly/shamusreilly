@@ -8,13 +8,15 @@
 
 ---
 
-## About Me
+## Table of Contents
 
 I'm a Senior Accountant and CPA with 10+ years of experience across corporate accounting, FP&A, financial reporting, forecasting, and internal audit. I specialize in transforming complex financial data into clear, actionable insights that drive better business decisions. My work consistently improves reporting accuracy, strengthens accounting processes, and increases operational efficiency across Finance, Operations, HR, IT, and Audit.
 
 I combine deep financial expertise with modern analytics tools — Power BI, Tableau, Python, SQL, and Oracle NetSuite — to bridge the gap between traditional accounting and data-driven decision making. With certifications in Microsoft Power BI (PL-300), Google Advanced Data Analytics, Oracle NetSuite ERP and BI & Reporting, Microsoft Azure AI Fundamentals, Salesforce Certified Business Analyst, and a CPA license, I bring a validated blend of accounting knowledge and emerging technology skills to every project.
 
-I'm currently seeking senior-level opportunities in accounting, FP&A, internal audit, or analytics leadership where I can help organizations scale smarter and make more informed decisions.
+## About Me
+
+I'm a CPA and Senior Accountant with 10+ years of experience spanning FP&A, corporate accounting, financial reporting, forecasting, and internal audit. I bridge the gap between traditional accounting and data-driven decision making using Tableau, Power BI, Python, and SQL — backed by certifications in Oracle NetSuite, Google Advanced Data Analytics, Microsoft Power BI, Azure AI, and Salesforce Business Analyst.
 
 ---
 
@@ -24,9 +26,9 @@ I'm currently seeking senior-level opportunities in accounting, FP&A, internal a
 |----------|--------|
 | **Visualization** | Tableau, Power BI, DAX, Matplotlib, Seaborn |
 | **Programming** | Python (pandas, NumPy, scikit-learn, matplotlib, seaborn), SQL |
-| **ERP / Accounting** | Oracle NetSuite, Sage 500, Microsoft Dynamics, Oracle JD Edwards + Hubble Reporting & Analytics, QuickBooks, Excel (advanced), financial modeling |
+| **ERP / Accounting** | Oracle NetSuite, Sage 500, Microsoft Dynamics, Oracle JD Edwards + Hubble Reporting & Analytics, UKG, LIMS, FoodTrak, Club Select Accounts Receivable, QuickBooks, Excel (advanced), financial modeling |
 | **POS & Payment Systems** | Shift4 / Total E+, Loyverse + Elavon, Square |
-| **Cloud / AI** | Microsoft Azure AI, Google Cloud |
+| **Cloud / AI** | Microsoft Azure AI |
 | **Analytics** | Data modeling, ETL, variance analysis, regression, classification, EDA |
 | **Accounting** | FP&A, financial reporting, SOX compliance, month-end close, budgeting & forecasting |
 
@@ -37,9 +39,10 @@ I'm currently seeking senior-level opportunities in accounting, FP&A, internal a
 | Certification | Issuer | Date | Verify |
 |---------------|--------|------|--------|
 | **Certified Public Accountant (CPA)** — License #21954 | Arizona State Board of Accountancy | Nov 2025 | [Verify →](https://www.azaccountancy.gov/CPADirectory/CPASearch.aspx) |
-| **Microsoft Certified: Power BI Data Analyst Associate (PL-300)** | Microsoft | Jan 2026 | [Verify →](https://learn.microsoft.com/en-us/users/me/credentials?credentialId=1E6A866ED489BC35) |
+| **Microsoft Certified: Power BI Data Analyst Associate (PL-300)** | Microsoft | Jan 2026 | [Verify →](https://learn.microsoft.com/api/credentials/share/en-us/ShamusReilly-1455/1E6A866ED489BC35?sharingId=B26CC729A30E8C9B) |
 | **Google Advanced Data Analytics Specialization** | Google | Jan 2026 | [Verify →](https://www.credly.com/badges/verify?credentialId=MFBS4CNH4MKI) |
-| **Microsoft Certified: Azure AI Fundamentals (AI-900)** | Microsoft | Feb 2026 | [Verify →](https://learn.microsoft.com/en-us/users/me/credentials?credentialId=A49FB28901B5257B) |
+| **Microsoft Certified: Azure AI Fundamentals (AI-900)** | Microsoft | Feb 2026 | [Verify →](https://learn.microsoft.com/api/credentials/share/en-us/ShamusReilly-1455/A49FB28901B5257B?sharingId=B26CC729A30E8C9B) |
+| **Salesforce Certified Business Analyst** | Salesforce | Feb 2026 | [Verify →](https://trailhead.salesforce.com/en/credentials/verification/) |
 | **Oracle NetSuite Financial Associate Certification** | Oracle | Feb 2026 | [Verify →](https://www.linkedin.com/in/shamusreilly/details/certifications/) |
 | **Oracle NetSuite BI and Reporting Associate** | Oracle | Feb 2026 | [Verify →](https://www.linkedin.com/in/shamusreilly/details/certifications/) |
 
@@ -47,9 +50,13 @@ I'm currently seeking senior-level opportunities in accounting, FP&A, internal a
 
 ## 📊 Tableau Projects
 
-### Regional Audit Fee Analysis & Cost Visualization
+<details>
+<summary><strong>Regional Audit Fee Analysis & Cost Visualization</strong></summary>
+<br>
 
-**Tool(s):** Tableau | **Category:** Dashboard / Financial Analysis | **Source:** WGU Coursework
+**Tool(s):** Tableau | **Category:** Dashboard / Financial Analysis | **Source:** Master's Data Analytics Coursework (WGU)
+
+> *Guided course project — built as part of a structured assignment using provided datasets.*
 
 **Problem:** Analyze audit fee patterns across U.S. regions to identify where fees are disproportionately high relative to company assets, and flag areas with low audit coverage that may represent compliance risk.
 
@@ -59,36 +66,48 @@ I'm currently seeking senior-level opportunities in accounting, FP&A, internal a
 - Designed a multi-view workbook: geographic map, scatter plot with trend lines, and regional bar chart
 
 **Key Insights:**
-- Southwest and Southeast regions carry the highest average audit fees ($755K and $659K respectively), nearly 2–3× the Northeast average
+- Southwest and Southeast regions carry the highest average audit fees ($755K and $659K respectively), nearly 2-3x the Northeast average
 - Smaller companies (under $500M in assets) pay disproportionately high audit fees per dollar of assets, with many flagged as low-coverage risks
 - Geographic clustering of low-coverage flags in the Mountain West and parts of the Southeast suggests regional gaps in audit market access
 
 **Screenshots:**
 
 <p align="center">
-  <img src="images/tableau-audit-fee-map.png" alt="Regional Audit Fee Map" width="700"/>
+  <a href="https://public.tableau.com/app/profile/shamus.reilly/vizzes">
+    <img src="images/tableau-audit-fee-map.png" alt="Regional Audit Fee Map" width="700"/>
+  </a>
   <br><em>Geographic distribution of audit fees per $1M assets with low-coverage flags</em>
 </p>
 
 <p align="center">
-  <img src="images/tableau-audit-fee-scatter.png" alt="Audit Fees vs Assets Scatter Plot" width="700"/>
+  <a href="https://public.tableau.com/app/profile/shamus.reilly/vizzes">
+    <img src="images/tableau-audit-fee-scatter.png" alt="Audit Fees vs Assets Scatter Plot" width="700"/>
+  </a>
   <br><em>Audit fees vs. assets — highlighting low-coverage risks with dual trend lines</em>
 </p>
 
 <p align="center">
-  <img src="images/tableau-audit-fee-bar.png" alt="Average Audit Fee by Region" width="500"/>
+  <a href="https://public.tableau.com/app/profile/shamus.reilly/vizzes">
+    <img src="images/tableau-audit-fee-bar.png" alt="Average Audit Fee by Region" width="500"/>
+  </a>
   <br><em>Average audit fee by region — Southwest leads at $755K</em>
 </p>
 
-🔗 **[View on Tableau Public →](https://public.tableau.com/app/profile/shamus.reilly/vizzes)**
+[View on Tableau Public →](https://public.tableau.com/app/profile/shamus.reilly/vizzes)
+
+</details>
 
 ---
 
 ## 📈 Power BI Projects
 
-### Databel Telecom Customer Churn Analysis
+<details>
+<summary><strong>Databel Telecom Customer Churn Analysis</strong></summary>
+<br>
 
-**Tool(s):** Power BI, DAX | **Category:** Dashboard / Business Intelligence | **Source:** Certification Project
+**Tool(s):** Power BI, DAX | **Category:** Dashboard / Business Intelligence | **Source:** DataLabs.com Power BI Course / Sandbox
+
+> *Guided course project — built following structured lessons using a provided sandbox environment and dataset.*
 
 **Problem:** Analyze customer churn for Databel, a telecom provider with 6,687 customers, to identify the key drivers behind a 26.86% churn rate and recommend targeted retention strategies.
 
@@ -99,7 +118,7 @@ I'm currently seeking senior-level opportunities in accounting, FP&A, internal a
 
 **Key Insights:**
 - Overall churn rate of **26.86%** (1,796 of 6,687 customers)
-- **Senior customers** (65+) churn at **38.46%** — nearly 1.6× the overall rate — representing the highest-risk demographic
+- **Senior customers** (65+) churn at **38.46%** — nearly 1.6x the overall rate — representing the highest-risk demographic
 - Top churn drivers are competitor-related: better devices and better offers account for the largest share of departures
 - Customers under 30 actually have the *lowest* churn rate at 23%, contradicting typical assumptions
 
@@ -110,20 +129,26 @@ I'm currently seeking senior-level opportunities in accounting, FP&A, internal a
   <br><em>Databel churn analysis — KPIs, age segmentation, and churn reason breakdown</em>
 </p>
 
+</details>
+
 ---
 
 ## 🐍 Python Projects
 
-### Salifort Motors — Employee Retention Prediction
+<details>
+<summary><strong>Salifort Motors — Employee Retention Prediction</strong></summary>
+<br>
 
-**Tool(s):** Python (pandas, NumPy, scikit-learn, matplotlib, seaborn) | **Category:** Machine Learning / Classification | **Source:** Google Advanced Data Analytics Capstone
+**Tool(s):** Python (pandas, NumPy, scikit-learn, matplotlib, seaborn) | **Category:** Machine Learning / Classification | **Source:** Google Advanced Data Analytics Capstone (Coursera)
+
+> *Guided capstone project — completed as part of Google's certification program using provided coursework data.*
 
 **Problem:** Predict which employees are likely to leave Salifort Motors to help HR proactively improve retention and reduce turnover costs.
 
 **Approach:**
 - Cleaned a 14,999-row HR dataset: removed 3,008 duplicates (20%), renamed columns, validated data types
 - Conducted exploratory data analysis with box plots, scatter plots, count plots, and a correlation heatmap
-- Built and evaluated a **Random Forest Classifier** using an 75/25 train-test split
+- Built and evaluated a **Random Forest Classifier** using a 75/25 train-test split
 
 **Key Results:**
 - **97% accuracy** on the test set with strong precision and recall
@@ -133,13 +158,17 @@ I'm currently seeking senior-level opportunities in accounting, FP&A, internal a
 
 **Methodology:** PACE Framework (Plan → Analyze → Construct → Execute)
 
-🔗 *Full notebook and code available in this repository*
+[View Notebook →](notebooks/salifort_motors_employee_retention.ipynb)
 
----
+</details>
 
-### TikTok Claims Classification Project
+<details>
+<summary><strong>TikTok Claims Classification Project</strong></summary>
+<br>
 
-**Tool(s):** Python (pandas, NumPy, scikit-learn, scipy, matplotlib, seaborn) | **Category:** Machine Learning / NLP Classification | **Source:** Google Advanced Data Analytics Coursework
+**Tool(s):** Python (pandas, NumPy, scikit-learn, XGBoost, scipy, matplotlib, seaborn) | **Category:** Machine Learning / Classification | **Source:** Google Advanced Data Analytics Coursework (Coursera)
+
+> *Guided course project — completed as part of Google's certification program using provided coursework data.*
 
 **Problem:** Build a machine learning model to classify TikTok videos as "claims" (factual assertions) or "opinions" (subjective viewpoints) to help reduce the content moderation backlog.
 
@@ -148,17 +177,27 @@ I'm currently seeking senior-level opportunities in accounting, FP&A, internal a
 - Handled missing data (298 systematic rows dropped), validated outliers as legitimate viral content (kept)
 - Performed hypothesis testing (Welch's t-test) to compare engagement across claim types
 - Addressed class imbalance in verified status (93.7% unverified) using upsampling
-- Built a **Logistic Regression** classifier with StandardScaler preprocessing
+- Built and compared **Random Forest** and **XGBoost** classifiers using GridSearchCV optimized for recall
 
 **Key Results:**
-- Claims receive significantly higher engagement than opinions across all metrics (views, likes, shares, downloads, comments)
-- Banned authors post claims at a disproportionately higher rate than active users
-- Verified status is a strong predictor of content type, supporting automated classification
-- Model supports scalable triage of flagged content, reducing manual review burden
+- **99.5% accuracy** on test set with near-perfect precision and recall
+- Claims receive 100x more median views than opinions (501,555 vs 4,953)
+- `video_view_count` alone accounts for 61% of feature importance
+- Model supports scalable triage of flagged content, reducing manual review burden by an estimated 70–80%
 
 **Methodology:** PACE Framework (Plan → Analyze → Construct → Execute)
 
-🔗 *Full notebook and code available in this repository*
+[View Notebook →](notebooks/tiktok_claims_classification.ipynb)
+
+</details>
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=shamusreilly&show_icons=true&theme=default&hide_border=true" alt="GitHub Stats" />
+</p>
 
 ---
 
