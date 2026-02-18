@@ -32,9 +32,9 @@ I'm a CPA and Senior Accountant with 10+ years of experience spanning FP&A, corp
 |----------|--------|
 | **Visualization** | Tableau, Power BI, DAX, Matplotlib, Seaborn |
 | **Programming** | Python (pandas, NumPy, scikit-learn, matplotlib, seaborn), SQL |
-| **ERP / Accounting** | Oracle NetSuite, Sage 500, Microsoft Dynamics, Oracle JD Edwards + Hubble Reporting & Analytics, QuickBooks, Excel (advanced), financial modeling |
+| **ERP / Accounting** | Oracle NetSuite, Sage 500, Microsoft Dynamics, Oracle JD Edwards + Hubble Reporting & Analytics, UKG, LIMS, FoodTrak, Club Select Accounts Receivable, QuickBooks, Excel (advanced), financial modeling |
 | **POS & Payment Systems** | Shift4 / Total E+, Loyverse + Elavon, Square |
-| **Cloud / AI** | Microsoft Azure AI, Google Cloud |
+| **Cloud / AI** | Microsoft Azure AI |
 | **Analytics** | Data modeling, ETL, variance analysis, regression, classification, EDA |
 | **Accounting** | FP&A, financial reporting, SOX compliance, month-end close, budgeting & forecasting |
 
@@ -60,7 +60,9 @@ I'm a CPA and Senior Accountant with 10+ years of experience spanning FP&A, corp
 <summary><strong>Regional Audit Fee Analysis & Cost Visualization</strong></summary>
 <br>
 
-**Tool(s):** Tableau | **Category:** Dashboard / Financial Analysis | **Source:** WGU Coursework
+**Tool(s):** Tableau | **Category:** Dashboard / Financial Analysis | **Source:** Master's Data Analytics Coursework (WGU)
+
+> *Guided course project — built as part of a structured assignment using provided datasets.*
 
 **Problem:** Analyze audit fee patterns across U.S. regions to identify where fees are disproportionately high relative to company assets, and flag areas with low audit coverage that may represent compliance risk.
 
@@ -109,7 +111,9 @@ I'm a CPA and Senior Accountant with 10+ years of experience spanning FP&A, corp
 <summary><strong>Databel Telecom Customer Churn Analysis</strong></summary>
 <br>
 
-**Tool(s):** Power BI, DAX | **Category:** Dashboard / Business Intelligence | **Source:** Certification Project
+**Tool(s):** Power BI, DAX | **Category:** Dashboard / Business Intelligence | **Source:** DataLabs.com Power BI Course / Sandbox
+
+> *Guided course project — built following structured lessons using a provided sandbox environment and dataset.*
 
 **Problem:** Analyze customer churn for Databel, a telecom provider with 6,687 customers, to identify the key drivers behind a 26.86% churn rate and recommend targeted retention strategies.
 
@@ -141,7 +145,9 @@ I'm a CPA and Senior Accountant with 10+ years of experience spanning FP&A, corp
 <summary><strong>Salifort Motors — Employee Retention Prediction</strong></summary>
 <br>
 
-**Tool(s):** Python (pandas, NumPy, scikit-learn, matplotlib, seaborn) | **Category:** Machine Learning / Classification | **Source:** Google Advanced Data Analytics Capstone
+**Tool(s):** Python (pandas, NumPy, scikit-learn, matplotlib, seaborn) | **Category:** Machine Learning / Classification | **Source:** Google Advanced Data Analytics Capstone (Coursera)
+
+> *Guided capstone project — completed as part of Google's certification program using provided coursework data.*
 
 **Problem:** Predict which employees are likely to leave Salifort Motors to help HR proactively improve retention and reduce turnover costs.
 
@@ -166,7 +172,9 @@ I'm a CPA and Senior Accountant with 10+ years of experience spanning FP&A, corp
 <summary><strong>TikTok Claims Classification Project</strong></summary>
 <br>
 
-**Tool(s):** Python (pandas, NumPy, scikit-learn, XGBoost, scipy, matplotlib, seaborn) | **Category:** Machine Learning / Classification | **Source:** Google Advanced Data Analytics Coursework
+**Tool(s):** Python (pandas, NumPy, scikit-learn, XGBoost, scipy, matplotlib, seaborn) | **Category:** Machine Learning / Classification | **Source:** Google Advanced Data Analytics Coursework (Coursera)
+
+> *Guided course project — completed as part of Google's certification program using provided coursework data.*
 
 **Problem:** Build a machine learning model to classify TikTok videos as "claims" (factual assertions) or "opinions" (subjective viewpoints) to help reduce the content moderation backlog.
 
