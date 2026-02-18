@@ -22,7 +22,7 @@
 
 ## About Me
 
-I'm a CPA and Senior Accountant with 10+ years of experience spanning FP&A, corporate accounting, financial reporting, forecasting, and internal audit. I bridge the gap between traditional accounting and data-driven decision making using Tableau, Power BI, Python, and SQL — backed by certifications in Oracle NetSuite, Google Advanced Data Analytics, Microsoft Power BI, and Azure AI.
+I'm a CPA and Senior Accountant with 10+ years of experience spanning FP&A, corporate accounting, financial reporting, forecasting, and internal audit. I bridge the gap between traditional accounting and data-driven decision making using Tableau, Power BI, Python, and SQL — backed by certifications in Oracle NetSuite, Google Advanced Data Analytics, Microsoft Power BI, Azure AI, and Salesforce Business Analyst.
 
 ---
 
@@ -45,13 +45,12 @@ I'm a CPA and Senior Accountant with 10+ years of experience spanning FP&A, corp
 | Certification | Issuer | Date | Verify |
 |---------------|--------|------|--------|
 | **Certified Public Accountant (CPA)** — License #21954 | Arizona State Board of Accountancy | Nov 2025 | [Verify →](https://www.azaccountancy.gov/CPADirectory/CPASearch.aspx) |
-| **Microsoft Certified: Power BI Data Analyst Associate (PL-300)** | Microsoft | Jan 2026 | [Verify →](https://learn.microsoft.com/en-us/users/me/credentials?credentialId=1E6A866ED489BC35) |
+| **Microsoft Certified: Power BI Data Analyst Associate (PL-300)** | Microsoft | Jan 2026 | [Verify →](https://learn.microsoft.com/api/credentials/share/en-us/ShamusReilly-1455/1E6A866ED489BC35?sharingId=B26CC729A30E8C9B) |
 | **Google Advanced Data Analytics Specialization** | Google | Jan 2026 | [Verify →](https://www.credly.com/badges/verify?credentialId=MFBS4CNH4MKI) |
-| **Microsoft Certified: Azure AI Fundamentals (AI-900)** | Microsoft | Feb 2026 | [Verify →](https://learn.microsoft.com/en-us/users/me/credentials?credentialId=A49FB28901B5257B) |
+| **Microsoft Certified: Azure AI Fundamentals (AI-900)** | Microsoft | Feb 2026 | [Verify →](https://learn.microsoft.com/api/credentials/share/en-us/ShamusReilly-1455/A49FB28901B5257B?sharingId=B26CC729A30E8C9B) |
+| **Salesforce Certified Business Analyst** | Salesforce | Feb 2026 | [Verify →](https://trailhead.salesforce.com/en/credentials/verification/) |
 | **Oracle NetSuite Financial Associate Certification** | Oracle | Feb 2026 | [Verify →](https://www.linkedin.com/in/shamusreilly/details/certifications/) |
 | **Oracle NetSuite BI and Reporting Associate** | Oracle | Feb 2026 | [Verify →](https://www.linkedin.com/in/shamusreilly/details/certifications/) |
-
-> *Links will be updated to public verification URLs shortly.*
 
 ---
 
@@ -159,7 +158,7 @@ I'm a CPA and Senior Accountant with 10+ years of experience spanning FP&A, corp
 
 **Methodology:** PACE Framework (Plan → Analyze → Construct → Execute)
 
-*Notebook and code coming soon.*
+[View Notebook →](notebooks/salifort_motors_employee_retention.ipynb)
 
 </details>
 
@@ -167,7 +166,7 @@ I'm a CPA and Senior Accountant with 10+ years of experience spanning FP&A, corp
 <summary><strong>TikTok Claims Classification Project</strong></summary>
 <br>
 
-**Tool(s):** Python (pandas, NumPy, scikit-learn, scipy, matplotlib, seaborn) | **Category:** Machine Learning / NLP Classification | **Source:** Google Advanced Data Analytics Coursework
+**Tool(s):** Python (pandas, NumPy, scikit-learn, XGBoost, scipy, matplotlib, seaborn) | **Category:** Machine Learning / Classification | **Source:** Google Advanced Data Analytics Coursework
 
 **Problem:** Build a machine learning model to classify TikTok videos as "claims" (factual assertions) or "opinions" (subjective viewpoints) to help reduce the content moderation backlog.
 
@@ -176,17 +175,17 @@ I'm a CPA and Senior Accountant with 10+ years of experience spanning FP&A, corp
 - Handled missing data (298 systematic rows dropped), validated outliers as legitimate viral content (kept)
 - Performed hypothesis testing (Welch's t-test) to compare engagement across claim types
 - Addressed class imbalance in verified status (93.7% unverified) using upsampling
-- Built a **Logistic Regression** classifier with StandardScaler preprocessing
+- Built and compared **Random Forest** and **XGBoost** classifiers using GridSearchCV optimized for recall
 
 **Key Results:**
-- Claims receive significantly higher engagement than opinions across all metrics (views, likes, shares, downloads, comments)
-- Banned authors post claims at a disproportionately higher rate than active users
-- Verified status is a strong predictor of content type, supporting automated classification
-- Model supports scalable triage of flagged content, reducing manual review burden
+- **99.5% accuracy** on test set with near-perfect precision and recall
+- Claims receive 100x more median views than opinions (501,555 vs 4,953)
+- `video_view_count` alone accounts for 61% of feature importance
+- Model supports scalable triage of flagged content, reducing manual review burden by an estimated 70–80%
 
 **Methodology:** PACE Framework (Plan → Analyze → Construct → Execute)
 
-*Notebook and code coming soon.*
+[View Notebook →](notebooks/tiktok_claims_classification.ipynb)
 
 </details>
 
