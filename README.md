@@ -10,9 +10,16 @@
 
 ## Table of Contents
 
-I'm a Senior Accountant and CPA with 10+ years of experience across corporate accounting, FP&A, financial reporting, forecasting, and internal audit. I specialize in transforming complex financial data into clear, actionable insights that drive better business decisions. My work consistently improves reporting accuracy, strengthens accounting processes, and increases operational efficiency across Finance, Operations, HR, IT, and Audit.
+- [About Me](#about-me)
+- [Technical Skills](#-technical-skills)
+- [Certifications](#-certifications)
+- [Tableau Projects](#-tableau-projects)
+- [Power BI Projects](#-power-bi-projects)
+- [Python Projects](#-python-projects)
+- [Infrastructure Projects](#-infrastructure-projects)
+- [Connect With Me](#-connect-with-me)
 
-I combine deep financial expertise with modern analytics tools — Power BI, Tableau, Python, SQL, and Oracle NetSuite — to bridge the gap between traditional accounting and data-driven decision making. With certifications in Microsoft Power BI (PL-300), Google Advanced Data Analytics, Oracle NetSuite ERP and BI & Reporting, Microsoft Azure AI Fundamentals, Salesforce Certified Business Analyst, and a CPA license, I bring a validated blend of accounting knowledge and emerging technology skills to every project.
+---
 
 ## About Me
 
@@ -192,6 +199,59 @@ I'm currently seeking senior-level opportunities in accounting, FP&A, internal a
 **Methodology:** PACE Framework (Plan → Analyze → Construct → Execute)
 
 [View Notebook →](notebooks/tiktok_claims_classification.ipynb)
+
+</details>
+
+---
+
+## 🔒 Infrastructure Projects
+
+<details>
+<summary><strong>Rental Property Network Security Infrastructure</strong></summary>
+<br>
+
+**Tool(s):** Raspberry Pi, Pi-hole, Unbound, Nebula Sync, Tailscale, Linux (systemd) | **Category:** Network Infrastructure / Privacy Engineering
+
+**Problem:** Rental property tenants deserve reliable, private internet access. Default ISP configurations expose DNS queries to third-party logging, serve ads at the network level, and offer no resilience when a single piece of infrastructure fails.
+
+**Solution:** A self-hosted network stack built on commodity hardware providing whole-property mesh WiFi, network-wide ad blocking, privacy-focused recursive DNS resolution, and automatic failover — all remotely manageable.
+
+**Architecture:**
+
+```mermaid
+graph TD
+    Internet[🌐 Internet] --> Modem[ISP Modem]
+    Modem --> Router[Netgear Orbi Router<br/>DHCP Server<br/>DNS → Both Pi-holes]
+    Router --> Sat1[Orbi Satellite]
+    Router --> Sat2[Orbi Satellite]
+    Router -->|Ethernet| Pi1[🟢 Pi-hole Primary<br/>+ Unbound]
+    Router -->|Ethernet| Pi2[🔵 Pi-hole Secondary<br/>+ Unbound]
+    Pi1 <-->|Nebula Sync<br/>every 15 min| Pi2
+    Router -.->|WiFi| Clients[📱 💻 Wireless Clients]
+    Sat1 -.->|WiFi| Clients
+    Sat2 -.->|WiFi| Clients
+```
+
+**Key Design Decisions:**
+- **Orbi handles DHCP, not Pi-hole** — Early testing revealed a boot-order dependency: the Orbi boots faster than the Raspberry Pi. When Pi-hole managed DHCP, power outages left the network dead until the Pi finished booting. Keeping DHCP on the Orbi means WiFi comes up immediately; DNS follows once Pi-hole boots.
+- **Unbound recursive resolver** — DNS queries go directly to authoritative nameservers. No third party (Cloudflare, Google, Quad9) sees the full query history.
+- **Two independent Unbound instances** — Each Pi runs its own resolver rather than forwarding to the primary's Unbound. If the primary fails, the secondary resolves DNS independently with zero dependency.
+- **Nebula Sync on 15-minute timer** — Automatically propagates blocklists, whitelists, and settings from primary to secondary. One admin interface, two synchronized servers.
+
+**Hardware:**
+
+| Component | Role | Connection |
+|-----------|------|------------|
+| Netgear Orbi Router | Mesh WiFi base, DHCP server | WAN to ISP modem |
+| Netgear Orbi Satellite(s) | Mesh WiFi extension | Wireless backhaul to router |
+| Raspberry Pi 5 (2GB) — Primary | Pi-hole + Unbound | Ethernet to Orbi router |
+| Raspberry Pi 5 (2GB) — Secondary | Pi-hole + Unbound (redundant) | Ethernet to Orbi satellite |
+
+**Key Learnings:**
+- Boot-order dependencies are silent killers — the DHCP conflict only surfaced during a power outage
+- Reliability beats features for rental properties — tenants care that the internet works, not per-device query logs
+- True redundancy means zero shared dependencies between nodes
+- Mesh networks constrain configuration options, requiring creative workarounds
 
 </details>
 
